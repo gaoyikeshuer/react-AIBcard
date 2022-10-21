@@ -11,7 +11,7 @@
 }
 .card-page-content{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.5em;
 }
 .card-bottom{
     display: flex;
@@ -68,7 +68,8 @@ position: absolute;
     .button{
         width: 100%;
         text-align: center;
-        margin-bottom: 20px;
+        
+        margin-bottom: 0.5em;
         
     }
     .dotsContainer{
