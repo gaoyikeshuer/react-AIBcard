@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-AIBcard/static/css/main.09594d16.css",
+    "main.js": "/react-AIBcard/static/js/main.cb4503af.js",
+    "static/js/787.4b846e2a.chunk.js": "/react-AIBcard/static/js/787.4b846e2a.chunk.js",
+    "index.html": "/react-AIBcard/index.html",
+    "main.09594d16.css.map": "/react-AIBcard/static/css/main.09594d16.css.map",
+    "main.cb4503af.js.map": "/react-AIBcard/static/js/main.cb4503af.js.map",
+    "787.4b846e2a.chunk.js.map": "/react-AIBcard/static/js/787.4b846e2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09594d16.css",
+    "static/js/main.cb4503af.js"
+  ]
+}
