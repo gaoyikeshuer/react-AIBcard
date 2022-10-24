@@ -9,7 +9,8 @@ const ImageSlider = ({ slides }) => {
     setIndex(slideIndex);
   };
   return (
-    <div className="card-page">
+    <div className="card-body">
+  <div className="card-page">
       <h1 className="card-page-title">{slides[index].title}</h1>  
       <p className="card-page-content">{slides[index].content}</p>
       <div className="card-bottom">
@@ -27,6 +28,8 @@ const ImageSlider = ({ slides }) => {
         </div>
       </div>
     </div>
+    </div>
+  
   );
 };
 

@@ -1,9 +1,21 @@
+.card-body{
+    background-image: linear-gradient(to right, #512D6D,#C42F9E);
+    width: 459px;
+    margin: 100px auto;
+    padding: 32px;
+    height: 283px;
+    border-radius: 12px;
+    color: aliceblue;
+    overflow: hidden;
+    position: relative;
+}
 .card-page{
     height: 100%;
     position: relative;
     box-sizing: border-box;
     font-family: aspira-bold,sans-serif;
     font-style: normal;
+    
 }
 .card-page-title{
     font-size: 34px;
@@ -60,6 +72,11 @@ position: absolute;
 }
 
 @media (max-width : 600px){
+    
+        .card-body{
+          width: auto;
+        }
+  
     .card-bottom{
     
         display: flex;
