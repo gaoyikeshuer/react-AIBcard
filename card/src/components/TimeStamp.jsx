@@ -4,7 +4,7 @@ const TimeStamp = () => {
     var showdate = new Date().toLocaleDateString('en-IE',{day:"2-digit", month:"short", year:"numeric"});
   
   return (
-    <div>
+    <div className='timestamp'>
       {showdate}
     </div>
   )

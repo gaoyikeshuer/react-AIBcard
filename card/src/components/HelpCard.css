@@ -1,22 +1,26 @@
 .grid-container{
     display: grid;
-
+    margin: 0 40px;
+    margin-bottom: 100px;
     column-gap: 16px;
     grid-template-columns: repeat(4,1fr);
+  
 }
 
 .helpcard-container{
 
-  width: 100%;
-  height: 283px;
+  width: 382px;
+  height: 278px;
     margin: 50px auto;
     /* width: 300px; */
     box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
+    background-color: white;
+    border-radius: 12px;
     
 }
 .helpcard-icon img{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 .helpcard-icon{
    display: flex;
@@ -25,19 +29,26 @@
 
    
 }
+.helpcard-textcontainer{
+    text-align: center;
+}
 .helpcard-title{
     font-weight: 500;
     padding-bottom: 20px;
     color: black;
-    text-align: center;
+   
 }
 .helpcard-body{
-    text-align: center;
+
+    padding: 0 30px;
 }
 .helpcard-a{
-    text-align: center;
-    padding: 35px;
+   padding-top: 10px;
+   padding-bottom: 10px;
     color: #075443;
+}
+.helpcard-shortText{
+    display: none;
 }
 @media (max-width : 1440px){
     .grid-container{
@@ -56,19 +67,50 @@
    
     }
     .helpcard-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+      align-items: center;
         height: 125px
 
     }
-    .helpcard-icon{
-      padding: 0;
-      align-items: center;
+    .helpcard-shortText{
+        display: block;
     }
-   .helpcard-body{
+  .helpcard-body{
+    display: none;
+  }
+   .helpcard-a{
     display: none;
    }
+}
+@media (max-width : 1440px){
+    .grid-container{
+        display: grid;
+    
+        column-gap: 16px;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width : 600px){
+    .grid-container{
+        display: grid;
+        margin-bottom: 100px;
+  
+    }
+    .helpcard-container{
+        display: flex;
+        flex-direction: column;
+       width: 170px;
+       height: 160px;
+      
+    }
+    .helpcard-body{
+        display: none;
+    }
+  
    .helpcard-a{
+    display: none;
+   }
+   .helpcard-shortText{
     display: none;
    }
 }
