@@ -5,6 +5,7 @@ import HelpCard from './components/HelpCard';
 import home from './icons/home.png' 
 import InformationCard from './components/InformationCard';
 import PrimaryButton from './components/PrimaryButton';
+import SecondaryButton from './components/SecondaryButton';
 function App() {
   const slides = [
     {content: "AIB allows you manage your bank accounr on-the-go, track your expenses and set aside money in real-time. Open yours in minutes right from your smart phone.", title :"Join us at AIB"},
@@ -18,6 +19,7 @@ function App() {
     <HelpCard title ="Need some Help?" imageUrl={home} helpcardBody="We'll try to answer your questions and give you the " shortText="We're here to help"/>
     <InformationCard imageUrl={home}/>
 <PrimaryButton/>
+<SecondaryButton/>
     </div>
 
   );

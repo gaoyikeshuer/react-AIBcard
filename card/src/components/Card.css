@@ -38,8 +38,8 @@
     padding-top: 1rem;
 }
 a{
-    
-    color: #075443;
+    text-decoration: none;
+    color: #32A685;
 }
 a:hover{
     color: #075443;
