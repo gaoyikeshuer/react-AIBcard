@@ -11,7 +11,7 @@ const ImageSlider = ({ slides }) => {
   return (
     <div className="card-body">
   <div className="card-page">
-      <h1 className="card-page-title">{slides[index].title}</h1>  
+      <p className="card-page-title">{slides[index].title}</p>  
       <p className="card-page-content">{slides[index].content}</p>
       <div className="card-bottom">
         <div className="button">

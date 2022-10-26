@@ -9,13 +9,13 @@ const Card = ({ title, imageUrl, cardBody }) => {
       </div>
       <div className="card-content">
       <div className="card-title">
-        <h3>{title}</h3>
+        <p>{title}</p>
         <TimeStamp/>
       </div>
       <div className="cardBody">
         <p>{cardBody}</p>
       </div>
-      <div className="link">
+      <div className="card-link">
       <a href="/">Text link</a>
       </div>
       </div>

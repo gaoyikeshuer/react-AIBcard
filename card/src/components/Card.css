@@ -4,12 +4,13 @@
     height: 420px;
     overflow: hidden;
     border-radius: 12px;
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.15);
     background-color: white;
+    position: relative;
  
 }
 .card-container:hover{
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.15)
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3)
 }
 .image-container{
     height: 210px;
@@ -22,20 +23,30 @@
 
 }
 .card-content{
-    margin: 1rem;
-    margin-top: 0.5rem;
+    margin: 20px;
 }
 .card-title{
     margin-bottom: 0.5rem;
     padding: 0;
 }
 .timestamp{
- padding-top: 0.5rem;
+margin-top: 8px;
  color: gray;
 }
-.card-title h3{
+.card-title p{
     margin: 0;
-    padding-top: 1rem;
+    font-family: "AspiraMedium";
+}
+.cardBody{
+    margin: 12px 0;
+}
+.cardBody p{
+    font-family: "AspiraRegular";
+    color: #4D4D4D;
+}
+.card-link{
+    position: absolute;
+    bottom: 32px;
 }
 a{
     text-decoration: none;

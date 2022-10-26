@@ -16,24 +16,32 @@
     box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
     background-color: white;
     border-radius: 12px;
-    
+   
 }
-.helpcard-icon img{
-    width: 50px;
-    height: 50px;
-}
+
 .helpcard-icon{
+
+
    display: flex;
    justify-content: center;
-   padding: 35px;
-
-   
+   padding: 32px;
+   padding-bottom: 19px;
+}
+.helpcard-icon-bg{
+    height: 64px;
+    width: 64px;
+    background-color: #F2EAF2;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .helpcard-textcontainer{
     text-align: center;
 }
 .helpcard-title{
-    font-weight: 500;
+    font-family: "AspiraDemi";
+    font-size: 20px;
     padding-bottom: 20px;
     color: black;
    
@@ -41,11 +49,14 @@
 .helpcard-body{
 
     padding: 0 30px;
+    font-size: 16px;
+    font-family: "AspiraRegular";
 }
 .helpcard-a{
-   padding-top: 10px;
+   padding-top: 28px;
    padding-bottom: 10px;
     color: #075443;
+    font-family: "AspiraRegular";
 }
 .helpcard-shortText{
     display: none;
@@ -66,20 +77,29 @@
         height: 125px;
    
     }
+  
     .helpcard-container{
         display: flex;
       align-items: center;
         height: 125px
 
     }
+
     .helpcard-shortText{
         display: block;
+    }
+    .helpcard-title{
+        font-family: "AspiraMedium";
+        font-size: 18px;
+        padding-bottom: 4px;
     }
   .helpcard-body{
     display: none;
   }
    .helpcard-a{
-    display: none;
+    display: flex;
+    padding: 0;
+    
    }
 }
 @media (max-width : 1440px){
@@ -102,6 +122,13 @@
        width: 170px;
        height: 160px;
       
+    }
+    .helpcard-icon{
+        padding-bottom: 16px;
+    }
+    .helpcard-title{
+        font-family: "AspiraMedium";
+        font-size: 18px;
     }
     .helpcard-body{
         display: none;

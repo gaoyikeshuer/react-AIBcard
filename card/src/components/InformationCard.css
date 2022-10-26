@@ -1,19 +1,40 @@
 .information-container{
     margin: 100px auto;
-    padding: 35px;
-    width: 382px;
-    height: 382px;
+    padding: 32px;
+    width: 364px;
+    height: 372px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
     background-color: white;
 }
 .information-ImgContainer{
-    margin: 20px 0;
+    margin-bottom: 32px;
+}
+.information-ImgContainer-bg{
+    height: 64px;
+    width: 64px;
+    background-color: #F2EAF2;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.information-textContainer{
+   
 }
 .information-title{
-    margin-top: 40px;
+    font-family: "AspiraMedium";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0;
+ 
 }
 .information-body{
-    line-height: 30px;
+    margin-top: 6px;
+    font-family: "AspiraRegular";
+    line-height: 24px;
+    font-size: 16px;
+
 }

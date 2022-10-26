@@ -1,0 +1,39 @@
+.bannerWhite-container{
+    width: 459px;
+    margin: 100px auto;
+    padding: 32px;
+    height: 273px;
+    border-radius: 12px;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    border-radius: 12px;
+    box-shadow:5px 5px 30px rgba(0,0,0,0.05) ;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  
+}
+.bannerWhite-container-text{
+
+}
+.bannerWhite-title{
+    margin: 0;
+    font-size: 34px;
+    font-family: "AspiraDemi";
+    font-weight: 500;
+    line-height: 41px;
+    color: #7F2B7B;
+
+}
+.bannerWhite-content{
+    margin-top: 11px;
+    font-family: "AspiraRegular";
+    font-size: 16px;
+    line-height: 24px;
+}
+.bannerWhite-button{
+    display: flex;
+    position: absolute;
+    bottom: 32px;
+}

@@ -1,0 +1,41 @@
+.gradient-container{
+    width: 362px;
+    height: 417px;
+    margin: 40px auto;
+    border-radius: 12px;
+    overflow: hidden;
+ position: relative;
+ display: flex; /* in order to center the background image*/
+ align-items: center; /* vertical */
+ justify-content: center;
+}
+.gradient-container:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to bottom, rgba(255,0,0,0) 0%,#512D6D 100%);
+}
+.gradient-container-img img{
+height: 100%  /*Otherwise using absolute, left:xxx*/
+}
+.gradient-container-text{
+ position: absolute;
+ bottom: 12px;
+padding: 20px;
+z-index: 10;
+}
+.gradient-title{
+color: white;
+font-family: "AspiraMedium";
+font-size: 24px;
+line-height: 28px;
+}
+.gradient-body{
+font-family: "AspiraRegular";
+font-size: 16px;
+line-height: 24px;
+color: white;
+}

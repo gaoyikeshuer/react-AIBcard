@@ -1,0 +1,36 @@
+.useful-container{
+    margin: 100px auto;
+    padding: 20px 32px;
+    width: 364px;
+    height: 191px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
+    background-color: white;
+    position: relative;
+}
+.useful-container-text{
+
+}
+.useful-title{
+    font-family: "AspiraMedium";
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+.useful-content{
+    font-family: "AspiraRegular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+.useful-link{
+    position: absolute;
+    bottom: 32px;
+
+}
+.useful-link a{
+    font-family: "AspiraMedium";
+    font-size: 16px;
+    color: #00856A;
+}

@@ -1,10 +1,29 @@
+@font-face {
+  font-family: "AspiraDemi";
+  src:local("AspiraDemi") 
+  ,url("./fonts/Aspira/600_Demi/Aspira-Demi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AspiraRegular";
+  src: local("AspiraRegular") 
+  ,url("./fonts/Aspira/400_Regular/Aspira-Regular.ttf") format("truetype");
+}
+@font-face{
+  font-family: "AspiraMedium";
+  src: local("AspiraMedium"),
+  url("./fonts/Aspira/500_Medium/Aspira-Medium.ttf") format("truetype")
+  ;
+}
+
 body {
   margin: 0;
+  /* font-family: "AspiraDemi"; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, "AspiraDemi","AspiraRegular", "AspiraMedium";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
