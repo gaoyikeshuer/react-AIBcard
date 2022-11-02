@@ -1,15 +1,14 @@
-.information-container{
+
+   .information-container{
     margin: 100px auto;
     padding: 32px;
-    width: 364px;
-    height: 372px;
+    width: 750px;
+    height: 180px;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
     background-color: white;
-}
-.information-ImgContainer{
-    margin-bottom: 32px;
+    display: flex;
 }
 .information-ImgContainer-bg{
     height: 64px;
@@ -19,9 +18,6 @@
     display: grid;
     align-items: center;
     justify-content: center;
-}
-.information-textContainer{
-   
 }
 .information-title{
     font-family: "AspiraMedium";
@@ -36,5 +32,41 @@
     font-family: "AspiraRegular";
     line-height: 24px;
     font-size: 16px;
+
+}
+.information-ImgContainer{
+ padding-right: 32px;
+}
+.information-textContainer{
+    
+}
+@media (max-width: 1024px){
+    .information-container{
+        margin: 100px auto;
+        padding: 32px;
+        width: 364px;
+        height: 372px;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.05);
+        background-color: white;
+        display: block;
+    }
+    .information-ImgContainer{
+        margin-bottom: 32px;
+    }
+    .information-ImgContainer-bg{
+        height: 64px;
+        width: 64px;
+        background-color: #F2EAF2;
+        border-radius: 50%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .information-textContainer{
+       
+    }
+ 
 
 }

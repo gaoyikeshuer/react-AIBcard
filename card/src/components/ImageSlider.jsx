@@ -8,6 +8,9 @@ const ImageSlider = ({ slides }) => {
   const goToSlide = (slideIndex) => {
     setIndex(slideIndex);
   };
+  const show = () =>{
+    console.log("")
+  }
   return (
     <div className="card-body">
   <div className="card-page">
